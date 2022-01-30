@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.82c5d0a0.css",
-    "main.js": "/react-gh-pages/static/js/main.4f0ac5b9.js",
-    "static/media/Jobcard logo.svg": "/react-gh-pages/static/media/Jobcard logo.93fb1368100b988538e19bf42b70c904.svg",
-    "static/media/instagram.png": "/react-gh-pages/static/media/instagram.4820b0f0a639de564151.png",
-    "static/media/google.png": "/react-gh-pages/static/media/google.e12914ad8afda3f6f2e8.png",
-    "static/media/twitter.png": "/react-gh-pages/static/media/twitter.c60f40873bdb0eb014a8.png",
-    "static/media/linkedin.png": "/react-gh-pages/static/media/linkedin.252d9b5c5ab6a0f95f4f.png",
-    "static/media/Location.png": "/react-gh-pages/static/media/Location.d2d1afdb57bc27a6d353.png",
-    "static/media/suitcase.png": "/react-gh-pages/static/media/suitcase.f890e727d969dd1bccdc.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.82c5d0a0.css.map": "/react-gh-pages/static/css/main.82c5d0a0.css.map",
-    "main.4f0ac5b9.js.map": "/react-gh-pages/static/js/main.4f0ac5b9.js.map"
+    "main.css": "/refier-clone/static/css/main.82c5d0a0.css",
+    "main.js": "/refier-clone/static/js/main.4c8d3c77.js",
+    "static/media/Jobcard logo.svg": "/refier-clone/static/media/Jobcard logo.93fb1368100b988538e19bf42b70c904.svg",
+    "static/media/instagram.png": "/refier-clone/static/media/instagram.4820b0f0a639de564151.png",
+    "static/media/google.png": "/refier-clone/static/media/google.e12914ad8afda3f6f2e8.png",
+    "static/media/twitter.png": "/refier-clone/static/media/twitter.c60f40873bdb0eb014a8.png",
+    "static/media/linkedin.png": "/refier-clone/static/media/linkedin.252d9b5c5ab6a0f95f4f.png",
+    "static/media/Location.png": "/refier-clone/static/media/Location.d2d1afdb57bc27a6d353.png",
+    "static/media/suitcase.png": "/refier-clone/static/media/suitcase.f890e727d969dd1bccdc.png",
+    "index.html": "/refier-clone/index.html",
+    "main.82c5d0a0.css.map": "/refier-clone/static/css/main.82c5d0a0.css.map",
+    "main.4c8d3c77.js.map": "/refier-clone/static/js/main.4c8d3c77.js.map"
   },
   "entrypoints": [
     "static/css/main.82c5d0a0.css",
-    "static/js/main.4f0ac5b9.js"
+    "static/js/main.4c8d3c77.js"
   ]
 }
