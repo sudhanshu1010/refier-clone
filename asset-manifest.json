@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/refier-clone/static/css/main.34105792.css",
-    "main.js": "/refier-clone/static/js/main.11f61f84.js",
+    "main.css": "/refier-clone/static/css/main.b2138eef.css",
+    "main.js": "/refier-clone/static/js/main.cd160b37.js",
     "static/media/Jobcard logo.svg": "/refier-clone/static/media/Jobcard logo.93fb1368100b988538e19bf42b70c904.svg",
     "static/media/instagram.png": "/refier-clone/static/media/instagram.4820b0f0a639de564151.png",
     "static/media/google.png": "/refier-clone/static/media/google.e12914ad8afda3f6f2e8.png",
@@ -10,11 +10,11 @@
     "static/media/Location.png": "/refier-clone/static/media/Location.d2d1afdb57bc27a6d353.png",
     "static/media/suitcase.png": "/refier-clone/static/media/suitcase.f890e727d969dd1bccdc.png",
     "index.html": "/refier-clone/index.html",
-    "main.34105792.css.map": "/refier-clone/static/css/main.34105792.css.map",
-    "main.11f61f84.js.map": "/refier-clone/static/js/main.11f61f84.js.map"
+    "main.b2138eef.css.map": "/refier-clone/static/css/main.b2138eef.css.map",
+    "main.cd160b37.js.map": "/refier-clone/static/js/main.cd160b37.js.map"
   },
   "entrypoints": [
-    "static/css/main.34105792.css",
-    "static/js/main.11f61f84.js"
+    "static/css/main.b2138eef.css",
+    "static/js/main.cd160b37.js"
   ]
 }
