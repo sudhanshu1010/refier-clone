@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/refier-clone/static/css/main.4904727f.css",
+    "main.css": "/refier-clone/static/css/main.95d790c3.css",
     "main.js": "/refier-clone/static/js/main.c0082fd8.js",
     "static/media/Jobcard logo.svg": "/refier-clone/static/media/Jobcard logo.93fb1368100b988538e19bf42b70c904.svg",
     "static/media/instagram.png": "/refier-clone/static/media/instagram.4820b0f0a639de564151.png",
@@ -10,11 +10,11 @@
     "static/media/Location.png": "/refier-clone/static/media/Location.d2d1afdb57bc27a6d353.png",
     "static/media/suitcase.png": "/refier-clone/static/media/suitcase.f890e727d969dd1bccdc.png",
     "index.html": "/refier-clone/index.html",
-    "main.4904727f.css.map": "/refier-clone/static/css/main.4904727f.css.map",
+    "main.95d790c3.css.map": "/refier-clone/static/css/main.95d790c3.css.map",
     "main.c0082fd8.js.map": "/refier-clone/static/js/main.c0082fd8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4904727f.css",
+    "static/css/main.95d790c3.css",
     "static/js/main.c0082fd8.js"
   ]
 }
