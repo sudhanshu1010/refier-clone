@@ -35,7 +35,7 @@ const App = () => {
                 <div className={styles.google_icon_container}>
                   <img src={Google}/>
                 </div>
-                Signin with Google
+                Sign in with Google
               </div>
 
               <div className={styles.login_divider}>

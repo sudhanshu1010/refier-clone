@@ -19,7 +19,7 @@
 .login_form_container .login_form {
   z-index: 1000;
   height: 70vh;
-  width: 22vw;
+  width: 25%;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -117,4 +117,10 @@
 
 .login_form h5 {
   margin: 0;
+}
+
+@media (max-width: 1240px){
+  .login_form_container .login_form {
+    width: 80%;
+  }
 }

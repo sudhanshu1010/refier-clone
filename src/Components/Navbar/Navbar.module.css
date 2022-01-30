@@ -105,10 +105,185 @@ span {
     width: 10vw;
 }
 
-/* .login_form_container { 
+.navbar_hamburger {
+    display: none;
+}
+
+.navbar_hamburger {
+    position: relative;
+}
+
+.navbar_menu_container { 
     position: absolute;
-    height: 100vh;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    height: 90vh;
     width: 100vw;
-    z-index: 100;
-    background-color: #123;
-} */
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_menu {
+    width: 80%;
+    background-color: #fff;
+    color: #000;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px 1px lightgrey;
+    border-radius: 1vh;
+    border: 2px solid lightgrey;
+}
+
+
+.navbar_menu > div {
+    height: 5%;
+    font-size: 3vh;
+    cursor: pointer;
+    margin: 2vh;
+}
+
+.login_form_container {
+    position: absolute;
+    top: 100%;
+    left: 0;    
+    height: 90vh;
+    z-index: 1000;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    color: #fff;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form_container .login_form {
+    z-index: 1000;
+    height: 80%;
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh;
+    border-radius: 1vh;
+    color: #000;
+    box-shadow: 0 0 10px 1px lightgrey;
+}
+
+.login_form_name { 
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login_form_name h2 {
+    margin: 0;
+}
+
+.login_form_name > div {
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.login_google {
+    margin-top: 1vh;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgrey;
+    border-radius: 1vh;
+    box-shadow: 0 0 10px 1px lightgrey;
+}
+
+.google_icon_container {
+    height: 60%;
+    width: 5vh;
+    object-fit: contain;
+}
+
+.google_icon_container img {
+    height: 100%;
+    width: auto;
+}
+
+.login_divider {
+    opacity: .4;
+    position: relative;
+}
+
+.login_divider label {
+    position: absolute;
+    top: -20%;
+    background: #fff;
+    left: 45%;
+}
+
+.login_form > label:after {
+    content: "*";
+    color: red;
+    margin-left: .5vh;
+}
+  
+.login_form input {
+    height: 5vh;
+    border: 1px solid lightgrey;
+    padding: 0 1vw;
+}
+
+.login_form a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #649CD2;
+    font-size: 1.8vh;
+    font-weight: 600;
+}
+
+.login_button {
+    height: 6vh;
+    background-color: #0F1011;
+    color: #fff;
+    font-size: 2vh;
+    border-radius: 1vh;
+    box-shadow: 0 0 10px 1px lightgrey;
+    cursor: pointer;
+}
+  
+
+
+
+@media (max-width: 1240px) 
+{ 
+    .navbar_links_container {
+        display: none;
+    }
+
+    .navbar_hamburger {
+        height: 100%;
+        width: 5vh;
+        object-fit: contain;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .navbar_hamburger img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1240px){
+    .navbar_main_container {
+        padding: 0 2vw;
+    }
+}

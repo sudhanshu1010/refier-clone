@@ -97,10 +97,11 @@
     text-decoration: none;
 }
 
-.footer_container_two > a:hover , .footer_container_three > a:hover, .footer_container_four > a:hover, .lower_right_container > div:hover {
+.footer_container_two a:hover , .footer_container_three > a:hover, .footer_container_four > a:hover, .lower_right_container > div:hover {
     color: #1CC6C8;
     cursor: pointer;
 }
+
 
 .footer_container_two h3, .footer_container_three h3, .footer_container_four h3 {
     margin: 0 1vh 1vh 1vh;
@@ -137,4 +138,46 @@
 .footer_terms {
     border-right: 1px solid grey;
     border-left: 1px solid grey;
+}
+
+@media (max-width: 1240px){
+
+    .footer_main_container {
+        height: 100%;
+        flex-direction: column;
+        padding: 2vh 3vw;
+    }
+
+    .footer_content_container {
+        flex-direction: column;
+        padding-bottom: 1vh;
+    }
+
+    .footer_content_container > * {
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+
+    .footer_signup_container {
+        margin-top: 1.5vh;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 680px){
+    
+    .footer_lower_container {
+        flex-direction: column;
+    }
+
+    .lower_left_container {
+        max-width: 100%;
+        margin-bottom: 1vh;
+    }
+
+    .lower_right_container {
+        margin-top: 1vh;
+        width: 100%;
+    }
 }

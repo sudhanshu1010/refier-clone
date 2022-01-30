@@ -12,16 +12,20 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgrey;
+    align-items: center;
 }  
 
-.jobcard_heading h4 {
-    margin: 0;
+.jobcard_heading {
     max-width: 80%;
 }
 
+.jobcard_heading h4 {
+    margin: 0;
+}
+
 .jobcard_logo {
-    height: 10vh;
-    width: 10vh;
+    height: 5vw;
+    width: 5vw;
     border-radius:50%;
     overflow: clip;
     object-fit: contain;
@@ -97,3 +101,39 @@
 .job_apply:hover {
     color: #30D5C8;
 }
+
+
+   
+@media (max-width: 1240px)  {
+    .jobcard_main_container {
+        padding: 1vh;
+    }
+
+    .jobtype_container > * {
+        width: 8vw;
+    }
+
+    .jobcard_logo {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .job_apply {
+        width: 20vw;
+    }
+
+    .jobcard_type {
+        align-items: center;
+    }
+
+    .jobtype_container {
+        flex-direction: column;
+    }
+
+    .jobtype_container > * {
+        width: 20vw;
+        height: 5vh;
+        margin-bottom: 1vh;
+    }
+}
+    

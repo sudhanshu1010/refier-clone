@@ -2,6 +2,7 @@
     width: 100vw;
     padding: 8vh 5vw;
     display: flex;
+    position: relative;
 }
 
 .posts_left_container, .posts_right_container { 
@@ -78,7 +79,7 @@
     padding: .5vh 0;
     top: 110%;
     height: 40vh;
-    width: 15vw;
+    width: 90%;
     background-color: #fff;
     overflow: scroll;
     z-index: 20;
@@ -107,9 +108,11 @@
     border: 1px solid rgb(236, 236, 236);
     padding: 0 1vh;
 }
+
 .posts_form_container h4 {
     margin: 0;
 }
+
 .posts_form_container label::after {
     content: '*';
     color: red;
@@ -130,4 +133,29 @@
 .posts_button:hover {
     background-color: lightgray;
     color: #000;
+}
+
+@media (max-width: 1240px) 
+{
+    .posts_main_container {
+        flex-direction: column;
+        align-items: center;
+        padding: 2vh 1vw;
+    }
+
+    .posts_right_container {
+        display: none;
+    }
+
+    .posts_left_container {
+        width: 86%;
+    }
+
+    .posts_middle_container {
+        width: 90%;
+    }
+
+    .down_arrow {
+        width: 8vw;
+    }
 }
