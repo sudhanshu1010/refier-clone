@@ -1,0 +1,133 @@
+.posts_main_container {
+    width: 100vw;
+    padding: 8vh 5vw;
+    display: flex;
+}
+
+.posts_left_container, .posts_right_container { 
+    height: 50vh;
+    width: 18vw;
+    border-radius: 1vh;
+    margin: 1vh;
+    background-color: #fff;
+    padding: 1.5vh;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+.posts_middle_container {
+    width: 50vw;
+    padding: 1vh;
+}
+
+.posts_filter_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.posts_filter_container img {
+    width: 6%;
+}
+
+.posts_category_container, .posts_location_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    height: 5vh;
+    border-radius: .5vh;
+    padding: 1vh;
+    cursor: pointer;
+    position: relative;
+    margin-top: -1vh;
+}
+
+.posts_category_container input, .posts_location_container input {
+    border: none;
+    outline: none;
+}
+
+.down_arrow {
+    height: 100%;
+    width: 2vw;
+    display: flex;
+    border-left: 1px solid lightgrey;
+    color: lightgrey;
+}
+
+.down_arrow span {
+    font-size: 5vh;
+}
+
+.posts_filter_container > * {
+    margin: 0 1vh 0 0;
+}
+
+.toggle_container, .slider_value_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category_dropdown, .location_dropdown {
+    position: absolute;
+    padding: .5vh 0;
+    top: 110%;
+    height: 40vh;
+    width: 15vw;
+    background-color: #fff;
+    overflow: scroll;
+    z-index: 20;
+    box-shadow: 0 0 10px 1px lightgrey;
+    font-weight: 400;
+}
+
+.posts_header {
+    height: 20%;
+    width: 100%;
+    color: #3A7B9C;
+    font-size: 2.5vh;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+
+.posts_form_container {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.posts_form_container input {
+    height: 5vh;
+    border: 1px solid rgb(236, 236, 236);
+    padding: 0 1vh;
+}
+.posts_form_container h4 {
+    margin: 0;
+}
+.posts_form_container label::after {
+    content: '*';
+    color: red;
+    margin-left: .5vh;
+}
+
+.posts_button {
+    height: 6vh;
+    border: none;
+    background-color: #0F1011;
+    color: #fff;
+    border-radius: 1vh;
+    font-size: 2vh;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.posts_button:hover {
+    background-color: lightgray;
+    color: #000;
+}

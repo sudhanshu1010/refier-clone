@@ -1,0 +1,99 @@
+.jobcard_main_container {
+    width: 100%;
+    padding: 3vh;
+    background-color: #fff;
+    border-radius: 1vh;
+    margin-bottom: 3vh;
+}
+
+.jobcard_heading_container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+}  
+
+.jobcard_heading h4 {
+    margin: 0;
+    max-width: 80%;
+}
+
+.jobcard_logo {
+    height: 10vh;
+    width: 10vh;
+    border-radius:50%;
+    overflow: clip;
+    object-fit: contain;
+}
+
+.jobcard_logo img {
+    width: auto;
+    height: 100%;
+}
+
+.jobcard_keypoints {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    margin-top: 2vh;
+}
+
+.jobcard_keypoints > * {
+    margin: 0 6vw 0 0; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.keypoints_image_container {
+    height: 3vh;
+    width: 3vh;
+    object-fit: contain;
+}
+
+.keypoints_image_container img {
+    width: 60%;
+    height: auto;
+}
+
+.jobcard_details p { 
+    color: #5B5B5B;
+}
+
+.jobcard_type {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.jobtype_container {
+    display: flex;
+}
+
+.jobtype_container > * {
+    height: 5.5vh;
+    width: 6vw;
+    background-color: #EEF1F7;
+    margin-right: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3vh;
+}
+
+.job_apply {
+    width: 8.5vw;
+    height: 6vh;
+    background: #008080;
+    outline: none; 
+    border: none;
+    color: #fff;
+    font-size: 2.2vh;
+    border-radius: 1vh;
+    box-shadow: 0 0 10px 1px rgb(207, 207, 207);
+    cursor: pointer;
+}
+
+.job_apply:hover {
+    color: #30D5C8;
+}
